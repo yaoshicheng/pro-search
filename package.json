@@ -1,0 +1,47 @@
+{
+  "name": "@yaosc/pro-components-search",
+  "version": "0.0.1",
+  "description": "🏆 Custom Search Bar like a Pro!",
+  "keywords": [
+    "antd",
+    "admin",
+    "ant-design",
+    "ant-design-pro"
+  ],
+  "homepage": "http://gitlab-devops.xforceplus.com/frontend-center/components/pro-components/tree/master/packages/table#readme",
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab-devops.xforceplus.com/frontend-center/components/pro-components"
+  },
+  "license": "MIT",
+  "sideEffects": [
+    "*.less"
+  ],
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "es",
+    "dist"
+  ],
+  "browserslist": [
+    "last 2 versions",
+    "Firefox ESR",
+    "> 1%",
+    "ie >= 11"
+  ],
+  "dependencies": {
+    "antd": "4.21.4",
+    "lodash": "^4.17.21",
+    "styled-components": "^5.3.5"
+  },
+  "peerDependencies": {
+    "antd": ">=4.19.3",
+    "react": ">=16.9.0",
+    "react-dom": ">=16.9.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
